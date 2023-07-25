@@ -19,7 +19,7 @@ let sound = new Audio('https://www.babybeanie.com/sounds/duck.wav');
 var indexUpdate = 0;
 
 
-var nameReg = /^([a-z0-9]*[a-z]){3}[a-z0-9]*$/
+var nameReg = /^([A-Za-z0-9]*[A-Za-z]){3}[A-Za-z0-9]*$/
 var urlReg = /^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$/;
 
 
